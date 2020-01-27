@@ -12,9 +12,10 @@ public class WeaponStore {
 		this.simpleWeaponFactory = simpleWeaponFactory;
 	}
 
-	public void orderWeapon(String professional) {
+	public Weapon orderWeapon(String professional) {
 		weapon = simpleWeaponFactory.createWeapon(professional);
 		weapon.cost();
+		return weapon;
 	}
 	
 	public void weaponTest(String professional) {
