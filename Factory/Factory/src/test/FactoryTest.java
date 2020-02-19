@@ -23,6 +23,7 @@ public class FactoryTest {
 		//查看并购买骑士装备
 		armorStore = new knightArmorStore();
 		armor = armorStore.sellArmor("foot");
+		
 	}
 	
 }
