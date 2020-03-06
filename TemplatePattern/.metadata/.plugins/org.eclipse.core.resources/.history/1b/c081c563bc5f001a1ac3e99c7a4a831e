@@ -1,0 +1,19 @@
+package client;
+
+import food.Meat;
+import food.Vegetable;
+
+public class TemplateTest {
+	
+	public static void main(String[] args) {
+		Vegetable vegetable = new Vegetable();
+		vegetable.provid();
+		
+		Meat meat = new Meat();
+		meat.provid();
+		
+		meat.setLight(false);
+		meat.provid();
+	}
+	
+}

@@ -1,0 +1,17 @@
+package food;
+
+import template.AbstractFood;
+
+public class Meat extends AbstractFood {
+	
+	@Override
+	protected void cut() {
+		System.out.println("将肉切块");
+	}
+	
+	@Override
+	protected void cooking() {
+		System.out.println("加油，加酱油、辣椒爆炒");
+	}
+	
+}

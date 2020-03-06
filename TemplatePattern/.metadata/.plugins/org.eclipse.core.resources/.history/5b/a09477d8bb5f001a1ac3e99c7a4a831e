@@ -1,0 +1,12 @@
+package food;
+
+import template.AbstractFood;
+
+public class Vegetable extends AbstractFood {
+
+	@Override
+	protected void cut() {
+		System.out.println("将蔬菜切成多份");
+	}
+	
+}

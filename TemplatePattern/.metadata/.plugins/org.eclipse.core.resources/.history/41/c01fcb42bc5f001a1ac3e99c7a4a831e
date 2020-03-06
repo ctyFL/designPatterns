@@ -1,0 +1,13 @@
+package client;
+
+import food.Meat;
+import food.Vegetable;
+
+public class TemplateTest {
+	
+	public static void main(String[] args) {
+		Meat meat = new Meat();
+		Vegetable vegetable = new Vegetable();
+	}
+	
+}

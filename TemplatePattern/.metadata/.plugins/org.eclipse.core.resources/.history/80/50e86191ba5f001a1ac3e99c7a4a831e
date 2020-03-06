@@ -1,0 +1,13 @@
+package template;
+
+public abstract class AbstractFood {
+
+	public final void provid() {
+		
+	}
+	
+	public void wash() {
+		System.out.println("清洗食物");
+	}
+	
+}

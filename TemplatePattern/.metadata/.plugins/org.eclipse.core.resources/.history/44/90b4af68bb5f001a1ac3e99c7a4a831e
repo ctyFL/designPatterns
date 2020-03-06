@@ -1,0 +1,32 @@
+package food;
+
+public class Meat {
+	
+	public void provid() {
+		wash();
+		cut();
+		cooking();
+		sobot();
+	}
+	
+	public void wash() {
+		
+	}
+	
+	public void cut() {
+		
+	}
+	
+	public void cooking() {
+		
+	}
+	
+	public void addSeasoning() {
+		
+	}
+	
+	public void sobot() {
+		
+	}
+	
+}
