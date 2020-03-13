@@ -8,7 +8,7 @@ import leaf.City;
 
 /**
  * 
- * @author cty
+ * @author ctyFL
  * 树枝节点-省份
  */
 public class Province extends DistrictComponent {
